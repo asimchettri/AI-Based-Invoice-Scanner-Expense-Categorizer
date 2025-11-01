@@ -1,0 +1,879 @@
+2025-10-18 22:11:36,480 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:12:51,379 - INFO - File uploaded: itemized_commercial_invoice_template.png (32212 bytes)
+2025-10-18 22:12:51,380 - INFO - Extracting text from image: uploads\itemized_commercial_invoice_template.png
+2025-10-18 22:12:52,304 - INFO -  Extracted 528 characters from image
+2025-10-18 22:31:26,305 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:31:36,259 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:31:49,730 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:31:57,659 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:32:56,658 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:33:02,258 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:33:34,838 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:33:48,924 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:33:56,355 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:01,809 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:04,883 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:12,094 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:31,077 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:34,046 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:41,224 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:44,350 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:47,625 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:50,925 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:34:53,983 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:35:21,675 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:35:24,609 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:35:58,131 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:37:43,014 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:37:46,517 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:37:51,603 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:37:54,752 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:37:58,193 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:38:01,248 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:38:12,189 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:38:15,805 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:38:19,424 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:38:23,107 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:38:43,611 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:39:04,978 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:39:08,222 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:39:14,046 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:39:17,478 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:39:21,091 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:39:27,126 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:39:33,117 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:40:06,528 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:43:09,263 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:43:21,703 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:43:25,120 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:43:41,049 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:43:44,551 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:43:58,032 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:44:06,264 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:44:09,934 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:44:17,489 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:44:21,043 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:44:51,951 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:44:55,731 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:44:59,310 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:03,346 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:06,946 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:12,917 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:16,612 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:24,603 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:28,366 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:32,082 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:38,528 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:44,428 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:48,350 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 22:45:51,478 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:10:14,627 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:10:14,628 - INFO - OCR Utility initialized successfully
+2025-10-18 23:10:14,628 - INFO - Invoice Parser initialized
+2025-10-18 23:10:14,628 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:10:14,629 - INFO - Invoice Classifier initialized
+2025-10-18 23:10:14,629 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:16:05,593 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:16:05,594 - INFO - OCR Utility initialized successfully
+2025-10-18 23:16:05,595 - INFO - Invoice Parser initialized
+2025-10-18 23:16:05,595 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:16:05,595 - INFO - Invoice Classifier initialized
+2025-10-18 23:16:05,595 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:17:17,531 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:17:17,531 - INFO - OCR Utility initialized successfully
+2025-10-18 23:17:17,532 - INFO - Invoice Parser initialized
+2025-10-18 23:17:17,532 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:17:17,532 - INFO - Invoice Classifier initialized
+2025-10-18 23:17:17,532 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:17:22,992 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:17:22,993 - INFO - OCR Utility initialized successfully
+2025-10-18 23:17:22,993 - INFO - Invoice Parser initialized
+2025-10-18 23:17:22,993 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:17:22,993 - INFO - Invoice Classifier initialized
+2025-10-18 23:17:22,993 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:17:27,996 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:17:27,997 - INFO - OCR Utility initialized successfully
+2025-10-18 23:17:27,997 - INFO - Invoice Parser initialized
+2025-10-18 23:17:27,997 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:17:27,997 - INFO - Invoice Classifier initialized
+2025-10-18 23:17:27,997 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:17:36,613 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:17:36,613 - INFO - OCR Utility initialized successfully
+2025-10-18 23:17:36,613 - INFO - Invoice Parser initialized
+2025-10-18 23:17:36,614 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:17:36,614 - INFO - Invoice Classifier initialized
+2025-10-18 23:17:36,614 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:17:47,477 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:17:47,478 - INFO - OCR Utility initialized successfully
+2025-10-18 23:17:47,478 - INFO - Invoice Parser initialized
+2025-10-18 23:17:47,478 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:17:47,479 - INFO - Invoice Classifier initialized
+2025-10-18 23:17:47,479 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:19:11,105 - INFO - File uploaded: itemized_commercial_invoice_template.png (32212 bytes)
+2025-10-18 23:19:11,106 - INFO - Extracting text from image: uploads\itemized_commercial_invoice_template.png
+2025-10-18 23:19:11,821 - INFO -  Extracted 528 characters from image
+2025-10-18 23:19:11,822 - INFO - Parsing invoice text
+2025-10-18 23:19:11,833 - INFO - Invoice parsing completed successfully
+2025-10-18 23:19:11,834 - INFO - Invoice parsed successfully
+2025-10-18 23:19:11,834 - ERROR - Error classifying invoice: 'InvoiceClassifier' object has no attribute 'categorize_invoice'
+2025-10-18 23:23:59,730 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:23:59,731 - INFO - OCR Utility initialized successfully
+2025-10-18 23:23:59,731 - INFO - Invoice Parser initialized
+2025-10-18 23:23:59,732 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:23:59,732 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:23:59,733 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:24:31,791 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:24:31,792 - INFO - OCR Utility initialized successfully
+2025-10-18 23:24:31,792 - INFO - Invoice Parser initialized
+2025-10-18 23:24:31,792 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:24:31,793 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:24:31,793 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:24:48,909 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:24:48,910 - INFO - OCR Utility initialized successfully
+2025-10-18 23:24:48,910 - INFO - Invoice Parser initialized
+2025-10-18 23:24:48,911 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:24:48,911 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:24:48,911 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:25:27,685 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:25:27,686 - INFO - OCR Utility initialized successfully
+2025-10-18 23:25:27,686 - INFO - Invoice Parser initialized
+2025-10-18 23:25:27,686 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:25:27,687 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:25:27,687 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:25:32,201 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:25:32,202 - INFO - OCR Utility initialized successfully
+2025-10-18 23:25:32,202 - INFO - Invoice Parser initialized
+2025-10-18 23:25:32,203 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:25:32,203 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:25:32,203 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:26:16,128 - INFO - File uploaded: itemized_commercial_invoice_template.png (32212 bytes)
+2025-10-18 23:26:16,129 - INFO - Extracting text from image: uploads\itemized_commercial_invoice_template.png
+2025-10-18 23:26:16,785 - INFO -  Extracted 528 characters from image
+2025-10-18 23:26:16,786 - INFO - Parsing invoice text
+2025-10-18 23:26:16,798 - INFO - Invoice parsing completed successfully
+2025-10-18 23:26:16,799 - INFO - Invoice parsed successfully
+2025-10-18 23:26:16,800 - INFO - Invoice categorized: utilities (confidence: 0.09090909090909091)
+2025-10-18 23:26:16,801 - INFO - Invoice classified as: utilities
+2025-10-18 23:26:56,296 - INFO - File uploaded: itemized_commercial_invoice_template.png (32212 bytes)
+2025-10-18 23:26:56,296 - INFO - Extracting text from image: uploads\itemized_commercial_invoice_template.png
+2025-10-18 23:26:56,851 - INFO -  Extracted 528 characters from image
+2025-10-18 23:26:56,853 - INFO - Parsing invoice text
+2025-10-18 23:26:56,854 - INFO - Invoice parsing completed successfully
+2025-10-18 23:26:56,855 - INFO - Invoice parsed successfully
+2025-10-18 23:26:56,856 - INFO - Invoice categorized: utilities (confidence: 0.09090909090909091)
+2025-10-18 23:26:56,857 - INFO - Invoice classified as: utilities
+2025-10-18 23:28:09,129 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:28:09,129 - INFO - OCR Utility initialized successfully
+2025-10-18 23:28:09,129 - INFO - Invoice Parser initialized
+2025-10-18 23:28:09,129 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:28:09,130 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:09,130 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:12,436 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:28:12,436 - INFO - OCR Utility initialized successfully
+2025-10-18 23:28:12,436 - INFO - Invoice Parser initialized
+2025-10-18 23:28:12,437 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:28:12,437 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:12,437 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:21,836 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:28:21,837 - INFO - OCR Utility initialized successfully
+2025-10-18 23:28:21,837 - INFO - Invoice Parser initialized
+2025-10-18 23:28:21,837 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:28:21,838 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:21,838 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:32,637 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:28:32,637 - INFO - OCR Utility initialized successfully
+2025-10-18 23:28:32,637 - INFO - Invoice Parser initialized
+2025-10-18 23:28:32,638 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:28:32,638 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:32,638 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:35,788 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:28:35,789 - INFO - OCR Utility initialized successfully
+2025-10-18 23:28:35,789 - INFO - Invoice Parser initialized
+2025-10-18 23:28:35,789 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:28:35,789 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:35,790 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:28:53,156 - INFO - File uploaded: itemized_commercial_invoice_template.png (32212 bytes)
+2025-10-18 23:28:53,157 - INFO - Extracting text from image: uploads\itemized_commercial_invoice_template.png
+2025-10-18 23:28:53,736 - INFO -  Extracted 528 characters from image
+2025-10-18 23:28:53,738 - INFO - Parsing invoice text
+2025-10-18 23:28:53,745 - INFO - Invoice parsing completed successfully
+2025-10-18 23:28:53,746 - INFO - Invoice parsed successfully
+2025-10-18 23:28:53,747 - INFO - Invoice categorized: retail (confidence: 0.16666666666666666)
+2025-10-18 23:28:53,747 - INFO - Invoice classified as: retail
+2025-10-18 23:30:43,355 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:30:43,356 - INFO - OCR Utility initialized successfully
+2025-10-18 23:30:43,356 - INFO - Invoice Parser initialized
+2025-10-18 23:30:43,356 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:30:43,357 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:30:43,357 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:31:08,076 - INFO - File uploaded: itemized_commercial_invoice_template.png (32212 bytes)
+2025-10-18 23:31:08,077 - INFO - Extracting text from image: uploads\itemized_commercial_invoice_template.png
+2025-10-18 23:31:09,038 - INFO -  Extracted 528 characters from image
+2025-10-18 23:31:09,040 - INFO - Parsing invoice text
+2025-10-18 23:31:09,051 - INFO - Invoice parsing completed successfully
+2025-10-18 23:31:09,052 - INFO - Invoice parsed successfully
+2025-10-18 23:31:09,054 - INFO - Invoice categorized: retail (confidence: 0.16666666666666666)
+2025-10-18 23:31:09,054 - INFO - Invoice classified as: retail
+2025-10-18 23:32:35,537 - INFO - File uploaded: invoice-template-us-neat-750px.png (24463 bytes)
+2025-10-18 23:32:35,537 - INFO - Extracting text from image: uploads\invoice-template-us-neat-750px.png
+2025-10-18 23:32:36,144 - INFO -  Extracted 533 characters from image
+2025-10-18 23:32:36,146 - INFO - Parsing invoice text
+2025-10-18 23:32:36,149 - INFO - Invoice parsing completed successfully
+2025-10-18 23:32:36,149 - INFO - Invoice parsed successfully
+2025-10-18 23:32:36,151 - INFO - Invoice categorized: maintenance (confidence: 0.1)
+2025-10-18 23:32:36,152 - INFO - Invoice classified as: maintenance
+2025-10-18 23:35:55,211 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:35:55,211 - INFO - OCR Utility initialized successfully
+2025-10-18 23:35:55,211 - INFO - Invoice Parser initialized
+2025-10-18 23:35:55,211 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:35:55,212 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:35:55,212 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:35:58,589 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-18 23:35:58,589 - INFO - OCR Utility initialized successfully
+2025-10-18 23:35:58,589 - INFO - Invoice Parser initialized
+2025-10-18 23:35:58,590 - INFO - Invoice Parser initialized successfully
+2025-10-18 23:35:58,590 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:35:58,590 - INFO - Invoice Classifier initialized successfully
+2025-10-18 23:36:15,279 - INFO - File uploaded: invoice-template-us-neat-750px.png (24463 bytes)
+2025-10-18 23:36:15,279 - INFO - Extracting text from image: uploads\invoice-template-us-neat-750px.png
+2025-10-18 23:36:15,888 - INFO -  Extracted 533 characters from image
+2025-10-18 23:36:15,890 - INFO - Parsing invoice text
+2025-10-18 23:36:15,896 - INFO - Invoice parsing completed successfully
+2025-10-18 23:36:15,896 - INFO - Invoice parsed successfully
+2025-10-18 23:36:15,897 - INFO - Invoice categorized: maintenance (confidence: 0.1)
+2025-10-18 23:36:15,897 - INFO - Invoice classified as: maintenance
+2025-10-19 16:49:02,066 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-19 16:49:02,067 - INFO - OCR Utility initialized successfully
+2025-10-19 16:49:02,067 - INFO - Invoice Parser initialized
+2025-10-19 16:49:02,068 - INFO - Invoice Parser initialized successfully
+2025-10-19 16:49:02,068 - INFO - Invoice Classifier initialized successfully
+2025-10-19 16:49:02,068 - INFO - Invoice Classifier initialized successfully
+2025-10-19 16:54:17,450 - INFO - File uploaded: 667046396d43bd21a3aad108_Real-Estate-Invoice-Blue.webp (17170 bytes)
+2025-10-19 16:54:17,452 - INFO - Extracting text from image: uploads\667046396d43bd21a3aad108_Real-Estate-Invoice-Blue.webp
+2025-10-19 16:54:18,532 - INFO -  Extracted 350 characters from image
+2025-10-19 16:54:18,533 - INFO - Parsing invoice text
+2025-10-19 16:54:18,546 - INFO - Invoice parsing completed successfully
+2025-10-19 16:54:18,547 - INFO - Invoice parsed successfully
+2025-10-19 16:54:18,548 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 16:54:18,549 - INFO - Invoice classified as: travel
+2025-10-19 17:08:45,676 - INFO - File uploaded: 1760873025654-681613118.png (17170 bytes)
+2025-10-19 17:08:45,677 - INFO - Extracting text from image: uploads\1760873025654-681613118.png
+2025-10-19 17:08:46,800 - INFO -  Extracted 350 characters from image
+2025-10-19 17:08:46,800 - INFO - Parsing invoice text
+2025-10-19 17:08:46,801 - INFO - Invoice parsing completed successfully
+2025-10-19 17:08:46,801 - INFO - Invoice parsed successfully
+2025-10-19 17:08:46,802 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 17:08:46,802 - INFO - Invoice classified as: travel
+2025-10-19 21:51:13,169 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-19 21:51:13,170 - INFO - OCR Utility initialized successfully
+2025-10-19 21:51:13,170 - INFO - Invoice Parser initialized
+2025-10-19 21:51:13,170 - INFO - Invoice Parser initialized successfully
+2025-10-19 21:51:13,170 - INFO - Invoice Classifier initialized successfully
+2025-10-19 21:51:13,171 - INFO - Invoice Classifier initialized successfully
+2025-10-19 21:53:31,855 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-19 21:53:31,856 - INFO - OCR Utility initialized successfully
+2025-10-19 21:53:31,856 - INFO - Invoice Parser initialized
+2025-10-19 21:53:31,856 - INFO - Invoice Parser initialized successfully
+2025-10-19 21:53:31,856 - INFO - Invoice Classifier initialized successfully
+2025-10-19 21:53:31,856 - INFO - Invoice Classifier initialized successfully
+2025-10-19 22:00:46,242 - INFO - File uploaded: 1760890546188-593566041.png (17170 bytes)
+2025-10-19 22:00:46,243 - INFO - Extracting text from image: uploads\1760890546188-593566041.png
+2025-10-19 22:00:47,227 - INFO -  Extracted 350 characters from image
+2025-10-19 22:00:47,228 - INFO - Parsing invoice text
+2025-10-19 22:00:47,236 - INFO - Invoice parsing completed successfully
+2025-10-19 22:00:47,237 - INFO - Invoice parsed successfully
+2025-10-19 22:00:47,238 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 22:00:47,238 - INFO - Invoice classified as: travel
+2025-10-19 22:01:24,934 - INFO - File uploaded: 1760890584921-796420345.png (17170 bytes)
+2025-10-19 22:01:24,934 - INFO - Extracting text from image: uploads\1760890584921-796420345.png
+2025-10-19 22:01:25,490 - INFO -  Extracted 350 characters from image
+2025-10-19 22:01:25,491 - INFO - Parsing invoice text
+2025-10-19 22:01:25,492 - INFO - Invoice parsing completed successfully
+2025-10-19 22:01:25,492 - INFO - Invoice parsed successfully
+2025-10-19 22:01:25,493 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 22:01:25,493 - INFO - Invoice classified as: travel
+2025-10-19 22:09:11,202 - INFO - File uploaded: 1760891051153-623270288.png (17170 bytes)
+2025-10-19 22:09:11,203 - INFO - Extracting text from image: uploads\1760891051153-623270288.png
+2025-10-19 22:09:11,987 - INFO -  Extracted 350 characters from image
+2025-10-19 22:09:11,988 - INFO - Parsing invoice text
+2025-10-19 22:09:11,990 - INFO - Invoice parsing completed successfully
+2025-10-19 22:09:11,990 - INFO - Invoice parsed successfully
+2025-10-19 22:09:11,991 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 22:09:11,991 - INFO - Invoice classified as: travel
+2025-10-19 22:10:23,963 - INFO - File uploaded: 1760891123950-414121043.png (17170 bytes)
+2025-10-19 22:10:23,964 - INFO - Extracting text from image: uploads\1760891123950-414121043.png
+2025-10-19 22:10:24,680 - INFO -  Extracted 350 characters from image
+2025-10-19 22:10:24,681 - INFO - Parsing invoice text
+2025-10-19 22:10:24,682 - INFO - Invoice parsing completed successfully
+2025-10-19 22:10:24,683 - INFO - Invoice parsed successfully
+2025-10-19 22:10:24,684 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 22:10:24,685 - INFO - Invoice classified as: travel
+2025-10-19 22:14:10,004 - INFO - File uploaded: 1760891349986-636440556.png (17170 bytes)
+2025-10-19 22:14:10,005 - INFO - Extracting text from image: uploads\1760891349986-636440556.png
+2025-10-19 22:14:10,569 - INFO -  Extracted 350 characters from image
+2025-10-19 22:14:10,570 - INFO - Parsing invoice text
+2025-10-19 22:14:10,571 - INFO - Invoice parsing completed successfully
+2025-10-19 22:14:10,572 - INFO - Invoice parsed successfully
+2025-10-19 22:14:10,572 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 22:14:10,573 - INFO - Invoice classified as: travel
+2025-10-19 22:20:45,465 - INFO - File uploaded: 1760891745414-487508268.png (17170 bytes)
+2025-10-19 22:20:45,466 - INFO - Extracting text from image: uploads\1760891745414-487508268.png
+2025-10-19 22:20:46,032 - INFO -  Extracted 350 characters from image
+2025-10-19 22:20:46,033 - INFO - Parsing invoice text
+2025-10-19 22:20:46,035 - INFO - Invoice parsing completed successfully
+2025-10-19 22:20:46,035 - INFO - Invoice parsed successfully
+2025-10-19 22:20:46,036 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 22:20:46,036 - INFO - Invoice classified as: travel
+2025-10-19 22:30:29,464 - INFO - File uploaded: 1760892329409-914202018.png (17170 bytes)
+2025-10-19 22:30:29,466 - INFO - Extracting text from image: uploads\1760892329409-914202018.png
+2025-10-19 22:30:30,146 - INFO -  Extracted 350 characters from image
+2025-10-19 22:30:30,148 - INFO - Parsing invoice text
+2025-10-19 22:30:30,149 - INFO - Invoice parsing completed successfully
+2025-10-19 22:30:30,150 - INFO - Invoice parsed successfully
+2025-10-19 22:30:30,151 - INFO - Invoice categorized: travel (confidence: 0.0)
+2025-10-19 22:30:30,152 - INFO - Invoice classified as: travel
+2025-10-19 23:46:38,092 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-19 23:46:38,092 - INFO - OCR Utility initialized successfully
+2025-10-19 23:46:38,094 - INFO - Invoice Parser initialized
+2025-10-19 23:46:38,094 - INFO - Invoice Parser initialized successfully
+2025-10-19 23:46:38,095 - INFO - Invoice Classifier initialized successfully
+2025-10-19 23:46:38,095 - INFO - Invoice Classifier initialized successfully
+2025-10-30 13:17:58,150 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 13:18:50,014 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 13:18:50,015 - INFO - Extracting text from image: sample_files\667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png
+2025-10-30 13:18:51,034 - INFO -  Extracted 350 characters from image
+2025-10-30 13:20:06,251 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 13:20:06,254 - INFO - Extracting text from image: sample_files\667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png
+2025-10-30 13:20:06,708 - INFO -  Extracted 350 characters from image
+2025-10-30 13:20:06,710 - INFO - Extracting text from PDF: sample_files\sample-invoice.pdf
+2025-10-30 13:20:06,857 - INFO - Page 1/3: Direct text extraction successful
+2025-10-30 13:20:06,892 - INFO - Page 2/3: Direct text extraction successful
+2025-10-30 13:20:06,938 - INFO - Page 3/3: Direct text extraction successful
+2025-10-30 13:20:06,939 - INFO -  Successfully extracted 2758 characters from PDF (3 pages)
+2025-10-30 22:13:29,840 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 22:13:29,841 - INFO -  OCR Utility initialized
+2025-10-30 22:13:29,841 - INFO - Invoice Parser initialized
+2025-10-30 22:13:29,841 - INFO -  Invoice Parser initialized
+2025-10-30 22:13:29,841 - INFO - Invoice Classifier initialized successfully
+2025-10-30 22:13:29,841 - INFO -  Rule-based Classifier initialized
+2025-10-30 22:13:38,271 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-30 22:13:38,284 - INFO -   Model type: Linear SVM
+2025-10-30 22:13:38,284 - INFO -   Accuracy: 98.33%
+2025-10-30 22:13:38,284 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-30 22:13:38,284 - INFO - Invoice Classifier initialized successfully
+2025-10-30 22:13:38,284 - INFO - Rule-based classifier initialized as fallback
+2025-10-30 22:13:38,284 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-30 22:13:38,284 - INFO -  ML Classifier with fallback initialized
+2025-10-30 22:23:04,667 - INFO - [ANALYZE] Processing: 667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png (17170 bytes)
+2025-10-30 22:23:04,669 - INFO - Extracting text from image: uploads\667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png
+2025-10-30 22:23:05,788 - INFO -  Extracted 350 characters from image
+2025-10-30 22:23:05,788 - INFO - [OCR] Extracted 350 characters
+2025-10-30 22:23:05,788 - INFO - Parsing invoice text
+2025-10-30 22:23:05,791 - INFO - Invoice parsing completed successfully
+2025-10-30 22:23:05,792 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-30 22:23:05,801 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-30 22:23:05,801 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-30 22:23:05,802 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-30 22:24:06,741 - INFO - File uploaded: 667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png (17170 bytes)
+2025-10-30 22:24:06,742 - INFO - Extracting text from image: uploads\667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png
+2025-10-30 22:24:07,306 - INFO -  Extracted 350 characters from image
+2025-10-30 22:24:07,306 - INFO - Parsing invoice text
+2025-10-30 22:24:07,306 - INFO - Invoice parsing completed successfully
+2025-10-30 22:24:07,307 - INFO - Invoice parsed successfully
+2025-10-30 22:24:07,308 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-30 22:24:07,308 - INFO - ML Classification: transport (model)
+2025-10-30 23:34:28,845 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 23:34:28,845 - INFO -  OCR Utility initialized
+2025-10-30 23:34:28,846 - INFO - Invoice Parser initialized
+2025-10-30 23:34:28,846 - INFO -  Invoice Parser initialized
+2025-10-30 23:34:28,846 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:34:28,846 - INFO -  Rule-based Classifier initialized
+2025-10-30 23:34:29,845 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-30 23:34:29,846 - INFO -   Model type: Linear SVM
+2025-10-30 23:34:29,846 - INFO -   Accuracy: 98.33%
+2025-10-30 23:34:29,846 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-30 23:34:29,846 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:34:29,846 - INFO - Rule-based classifier initialized as fallback
+2025-10-30 23:34:29,846 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-30 23:34:29,847 - INFO -  ML Classifier with fallback initialized
+2025-10-30 23:34:38,593 - INFO - [ANALYZE] Processing: 1761847478569-551704533.png (17170 bytes)
+2025-10-30 23:34:38,594 - INFO - Extracting text from image: uploads\1761847478569-551704533.png
+2025-10-30 23:34:40,317 - INFO -  Extracted 350 characters from image
+2025-10-30 23:34:40,318 - INFO - [OCR] Extracted 350 characters
+2025-10-30 23:34:40,318 - INFO - Parsing invoice text
+2025-10-30 23:34:40,333 - INFO - Invoice parsing completed successfully
+2025-10-30 23:34:40,334 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-30 23:34:40,339 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-30 23:34:40,339 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-30 23:34:40,342 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-30 23:43:44,660 - INFO - [ANALYZE] Processing: 1761848024644-16272289.png (17170 bytes)
+2025-10-30 23:43:44,661 - INFO - Extracting text from image: uploads\1761848024644-16272289.png
+2025-10-30 23:43:45,186 - INFO -  Extracted 350 characters from image
+2025-10-30 23:43:45,186 - INFO - [OCR] Extracted 350 characters
+2025-10-30 23:43:45,187 - INFO - Parsing invoice text
+2025-10-30 23:43:45,187 - INFO - Invoice parsing completed successfully
+2025-10-30 23:43:45,187 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-30 23:43:45,190 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-30 23:43:45,190 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-30 23:43:45,190 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-30 23:50:14,346 - INFO - [ANALYZE] Processing: 1761848414310-463240670.png (17170 bytes)
+2025-10-30 23:50:14,349 - INFO - Extracting text from image: uploads\1761848414310-463240670.png
+2025-10-30 23:50:14,925 - INFO -  Extracted 350 characters from image
+2025-10-30 23:50:14,925 - INFO - [OCR] Extracted 350 characters
+2025-10-30 23:50:14,926 - INFO - Parsing invoice text
+2025-10-30 23:50:14,928 - INFO - Invoice parsing completed successfully
+2025-10-30 23:50:14,929 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-30 23:50:14,932 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-30 23:50:14,933 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-30 23:50:14,933 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-30 23:50:16,423 - INFO - [ANALYZE] Processing: 1761848416413-961530570.png (17170 bytes)
+2025-10-30 23:50:16,425 - INFO - Extracting text from image: uploads\1761848416413-961530570.png
+2025-10-30 23:50:17,060 - INFO -  Extracted 350 characters from image
+2025-10-30 23:50:17,061 - INFO - [OCR] Extracted 350 characters
+2025-10-30 23:50:17,061 - INFO - Parsing invoice text
+2025-10-30 23:50:17,063 - INFO - Invoice parsing completed successfully
+2025-10-30 23:50:17,063 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-30 23:50:17,066 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-30 23:50:17,066 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-30 23:50:17,067 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-30 23:51:28,125 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 23:51:28,125 - INFO -  OCR Utility initialized
+2025-10-30 23:51:28,126 - INFO - Invoice Parser initialized
+2025-10-30 23:51:28,126 - INFO -  Invoice Parser initialized
+2025-10-30 23:51:28,126 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:51:28,126 - INFO -  Rule-based Classifier initialized
+2025-10-30 23:51:29,167 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-30 23:51:29,168 - INFO -   Model type: Linear SVM
+2025-10-30 23:51:29,168 - INFO -   Accuracy: 98.33%
+2025-10-30 23:51:29,168 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-30 23:51:29,168 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:51:29,168 - INFO - Rule-based classifier initialized as fallback
+2025-10-30 23:51:29,169 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-30 23:51:29,169 - INFO -  ML Classifier with fallback initialized
+2025-10-30 23:51:36,328 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 23:51:36,329 - INFO -  OCR Utility initialized
+2025-10-30 23:51:36,329 - INFO - Invoice Parser initialized
+2025-10-30 23:51:36,329 - INFO -  Invoice Parser initialized
+2025-10-30 23:51:36,329 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:51:36,329 - INFO -  Rule-based Classifier initialized
+2025-10-30 23:51:37,516 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-30 23:51:37,517 - INFO -   Model type: Linear SVM
+2025-10-30 23:51:37,517 - INFO -   Accuracy: 98.33%
+2025-10-30 23:51:37,518 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-30 23:51:37,518 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:51:37,518 - INFO - Rule-based classifier initialized as fallback
+2025-10-30 23:51:37,518 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-30 23:51:37,518 - INFO -  ML Classifier with fallback initialized
+2025-10-30 23:51:44,852 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 23:51:44,852 - INFO -  OCR Utility initialized
+2025-10-30 23:51:44,852 - INFO - Invoice Parser initialized
+2025-10-30 23:51:44,853 - INFO -  Invoice Parser initialized
+2025-10-30 23:51:44,853 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:51:44,853 - INFO -  Rule-based Classifier initialized
+2025-10-30 23:51:45,799 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-30 23:51:45,799 - INFO -   Model type: Linear SVM
+2025-10-30 23:51:45,800 - INFO -   Accuracy: 98.33%
+2025-10-30 23:51:45,800 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-30 23:51:45,800 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:51:45,800 - INFO - Rule-based classifier initialized as fallback
+2025-10-30 23:51:45,800 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-30 23:51:45,800 - INFO -  ML Classifier with fallback initialized
+2025-10-30 23:52:15,691 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 23:52:15,692 - INFO -  OCR Utility initialized
+2025-10-30 23:52:15,692 - INFO - Invoice Parser initialized
+2025-10-30 23:52:15,693 - INFO -  Invoice Parser initialized
+2025-10-30 23:52:15,693 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:52:15,693 - INFO -  Rule-based Classifier initialized
+2025-10-30 23:52:16,570 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-30 23:52:16,571 - INFO -   Model type: Linear SVM
+2025-10-30 23:52:16,571 - INFO -   Accuracy: 98.33%
+2025-10-30 23:52:16,571 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-30 23:52:16,571 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:52:16,572 - INFO - Rule-based classifier initialized as fallback
+2025-10-30 23:52:16,572 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-30 23:52:16,572 - INFO -  ML Classifier with fallback initialized
+2025-10-30 23:52:26,927 - INFO - [ANALYZE] Processing: 1761848546906-716702011.png (17170 bytes)
+2025-10-30 23:52:26,927 - INFO - Extracting text from image: uploads\1761848546906-716702011.png
+2025-10-30 23:52:27,445 - INFO -  Extracted 350 characters from image
+2025-10-30 23:52:27,445 - INFO - [OCR] Extracted 350 characters
+2025-10-30 23:52:27,445 - INFO - Parsing invoice text
+2025-10-30 23:52:27,448 - INFO - Invoice parsing completed successfully
+2025-10-30 23:52:27,448 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-30 23:52:27,450 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-30 23:52:27,450 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-30 23:52:27,450 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-30 23:59:27,769 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-30 23:59:27,770 - INFO -  OCR Utility initialized
+2025-10-30 23:59:27,770 - INFO - Invoice Parser initialized
+2025-10-30 23:59:27,770 - INFO -  Invoice Parser initialized
+2025-10-30 23:59:27,770 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:59:27,770 - INFO -  Rule-based Classifier initialized
+2025-10-30 23:59:28,989 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-30 23:59:28,990 - INFO -   Model type: Linear SVM
+2025-10-30 23:59:28,991 - INFO -   Accuracy: 98.33%
+2025-10-30 23:59:28,991 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-30 23:59:28,991 - INFO - Invoice Classifier initialized successfully
+2025-10-30 23:59:28,991 - INFO - Rule-based classifier initialized as fallback
+2025-10-30 23:59:28,991 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-30 23:59:28,991 - INFO -  ML Classifier with fallback initialized
+2025-10-30 23:59:50,184 - INFO - [ANALYZE] Processing: 1761848990167-539349169.png (17170 bytes)
+2025-10-30 23:59:50,184 - INFO - Extracting text from image: uploads\1761848990167-539349169.png
+2025-10-30 23:59:50,706 - INFO -  Extracted 350 characters from image
+2025-10-30 23:59:50,707 - INFO - [OCR] Extracted 350 characters
+2025-10-30 23:59:50,707 - INFO - Parsing invoice text
+2025-10-30 23:59:50,710 - INFO - Invoice parsing completed successfully
+2025-10-30 23:59:50,711 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-30 23:59:50,713 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-30 23:59:50,713 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-30 23:59:50,713 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-31 00:03:40,794 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:03:40,794 - INFO -  OCR Utility initialized
+2025-10-31 00:03:40,794 - INFO - Invoice Parser initialized
+2025-10-31 00:03:40,794 - INFO -  Invoice Parser initialized
+2025-10-31 00:03:40,795 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:03:40,795 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:03:41,794 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:03:41,795 - INFO -   Model type: Linear SVM
+2025-10-31 00:03:41,795 - INFO -   Accuracy: 98.33%
+2025-10-31 00:03:41,795 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:03:41,796 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:03:41,796 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:03:41,796 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:03:41,796 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:03:45,665 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:03:45,665 - INFO -  OCR Utility initialized
+2025-10-31 00:03:45,665 - INFO - Invoice Parser initialized
+2025-10-31 00:03:45,665 - INFO -  Invoice Parser initialized
+2025-10-31 00:03:45,665 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:03:45,666 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:03:46,651 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:03:46,651 - INFO -   Model type: Linear SVM
+2025-10-31 00:03:46,651 - INFO -   Accuracy: 98.33%
+2025-10-31 00:03:46,652 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:03:46,652 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:03:46,652 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:03:46,652 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:03:46,652 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:03:50,837 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:03:50,837 - INFO -  OCR Utility initialized
+2025-10-31 00:03:50,837 - INFO - Invoice Parser initialized
+2025-10-31 00:03:50,838 - INFO -  Invoice Parser initialized
+2025-10-31 00:03:50,838 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:03:50,838 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:03:52,020 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:03:52,021 - INFO -   Model type: Linear SVM
+2025-10-31 00:03:52,021 - INFO -   Accuracy: 98.33%
+2025-10-31 00:03:52,022 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:03:52,022 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:03:52,022 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:03:52,022 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:03:52,022 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:03:55,757 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:03:55,757 - INFO -  OCR Utility initialized
+2025-10-31 00:03:55,757 - INFO - Invoice Parser initialized
+2025-10-31 00:03:55,757 - INFO -  Invoice Parser initialized
+2025-10-31 00:03:55,757 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:03:55,757 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:03:56,906 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:03:56,907 - INFO -   Model type: Linear SVM
+2025-10-31 00:03:56,907 - INFO -   Accuracy: 98.33%
+2025-10-31 00:03:56,908 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:03:56,908 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:03:56,908 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:03:56,908 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:03:56,908 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:04:01,395 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:04:01,395 - INFO -  OCR Utility initialized
+2025-10-31 00:04:01,396 - INFO - Invoice Parser initialized
+2025-10-31 00:04:01,396 - INFO -  Invoice Parser initialized
+2025-10-31 00:04:01,396 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:04:01,397 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:04:02,516 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:04:02,516 - INFO -   Model type: Linear SVM
+2025-10-31 00:04:02,517 - INFO -   Accuracy: 98.33%
+2025-10-31 00:04:02,517 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:04:02,517 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:04:02,517 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:04:02,517 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:04:02,517 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:04:07,105 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:04:07,105 - INFO -  OCR Utility initialized
+2025-10-31 00:04:07,105 - INFO - Invoice Parser initialized
+2025-10-31 00:04:07,105 - INFO -  Invoice Parser initialized
+2025-10-31 00:04:07,106 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:04:07,106 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:04:08,245 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:04:08,246 - INFO -   Model type: Linear SVM
+2025-10-31 00:04:08,247 - INFO -   Accuracy: 98.33%
+2025-10-31 00:04:08,247 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:04:08,247 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:04:08,247 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:04:08,247 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:04:08,248 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:04:12,401 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:04:12,402 - INFO -  OCR Utility initialized
+2025-10-31 00:04:12,402 - INFO - Invoice Parser initialized
+2025-10-31 00:04:12,402 - INFO -  Invoice Parser initialized
+2025-10-31 00:04:12,402 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:04:12,403 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:04:13,587 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:04:13,588 - INFO -   Model type: Linear SVM
+2025-10-31 00:04:13,588 - INFO -   Accuracy: 98.33%
+2025-10-31 00:04:13,589 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:04:13,589 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:04:13,589 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:04:13,589 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:04:13,590 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:04:18,054 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:04:18,056 - INFO -  OCR Utility initialized
+2025-10-31 00:04:18,057 - INFO - Invoice Parser initialized
+2025-10-31 00:04:18,057 - INFO -  Invoice Parser initialized
+2025-10-31 00:04:18,058 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:04:18,058 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:04:19,506 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:04:19,507 - INFO -   Model type: Linear SVM
+2025-10-31 00:04:19,507 - INFO -   Accuracy: 98.33%
+2025-10-31 00:04:19,507 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:04:19,508 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:04:19,508 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:04:19,508 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:04:19,508 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:10:37,664 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 00:10:37,665 - INFO -  OCR Utility initialized
+2025-10-31 00:10:37,665 - INFO - Invoice Parser initialized
+2025-10-31 00:10:37,665 - INFO -  Invoice Parser initialized
+2025-10-31 00:10:37,666 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:10:37,666 - INFO -  Rule-based Classifier initialized
+2025-10-31 00:10:38,587 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 00:10:38,588 - INFO -   Model type: Linear SVM
+2025-10-31 00:10:38,588 - INFO -   Accuracy: 98.33%
+2025-10-31 00:10:38,588 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 00:10:38,589 - INFO - Invoice Classifier initialized successfully
+2025-10-31 00:10:38,589 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 00:10:38,589 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 00:10:38,589 - INFO -  ML Classifier with fallback initialized
+2025-10-31 00:10:55,920 - INFO - [ANALYZE] Processing: 1761849655890-531719901.png (17170 bytes)
+2025-10-31 00:10:55,921 - INFO - Extracting text from image: uploads\1761849655890-531719901.png
+2025-10-31 00:10:56,459 - INFO -  Extracted 350 characters from image
+2025-10-31 00:10:56,460 - INFO - [OCR] Extracted 350 characters
+2025-10-31 00:10:56,461 - INFO - Parsing invoice text
+2025-10-31 00:10:56,464 - INFO - Invoice parsing completed successfully
+2025-10-31 00:10:56,464 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-31 00:10:56,466 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-31 00:10:56,466 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-31 00:10:56,466 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-31 00:13:29,336 - INFO - [ANALYZE] Processing: 1761849809316-231939381.png (17170 bytes)
+2025-10-31 00:13:29,337 - INFO - Extracting text from image: uploads\1761849809316-231939381.png
+2025-10-31 00:13:30,118 - INFO -  Extracted 350 characters from image
+2025-10-31 00:13:30,119 - INFO - [OCR] Extracted 350 characters
+2025-10-31 00:13:30,119 - INFO - Parsing invoice text
+2025-10-31 00:13:30,121 - INFO - Invoice parsing completed successfully
+2025-10-31 00:13:30,122 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry
+2025-10-31 00:13:30,126 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-31 00:13:30,126 - INFO - [CLASSIFY] ML: transport (source: model, confidence: 0.85)
+2025-10-31 00:13:30,127 - INFO - [SUCCESS] Analysis complete: transport (model)
+2025-10-31 10:56:56,419 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 10:56:56,748 - INFO - Invoice Parser initialized
+2025-10-31 10:56:56,752 - INFO - Invoice Classifier initialized successfully
+2025-10-31 10:57:06,586 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 10:57:06,601 - INFO -   Model type: Linear SVM
+2025-10-31 10:57:06,601 - INFO -   Accuracy: 98.33%
+2025-10-31 10:57:06,601 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 10:57:06,601 - INFO - Invoice Classifier initialized successfully
+2025-10-31 10:57:06,601 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 10:57:06,602 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 10:59:00,314 - INFO - [ANALYZE] Processing: sample-invoice.pdf (381709 bytes)
+2025-10-31 10:59:00,315 - INFO - Extracting text from PDF: uploads\sample-invoice.pdf
+2025-10-31 10:59:00,737 - INFO - Page 1/3: Direct text extraction successful
+2025-10-31 10:59:00,901 - INFO - Page 2/3: Direct text extraction successful
+2025-10-31 10:59:01,081 - INFO - Page 3/3: Direct text extraction successful
+2025-10-31 10:59:01,082 - INFO -  Successfully extracted 2758 characters from PDF (3 pages)
+2025-10-31 10:59:01,083 - INFO - [OCR] Extracted 2758 characters
+2025-10-31 10:59:01,083 - INFO - Parsing invoice text
+2025-10-31 10:59:01,087 - WARNING - Failed to parse date '96/99-08': day is out of range for month: 96/99-08
+2025-10-31 10:59:01,089 - WARNING - Failed to parse date '123100401 12345 01.02.2024 - 29.02.2024 1. März 2024': Unknown string format: 123100401 12345 01.02.2024 - 29.02.2024 1. März 2024
+2025-10-31 10:59:01,095 - INFO - Invoice parsing completed successfully
+2025-10-31 10:59:01,096 - INFO - [PARSE] Extracted vendor: CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, total: 38112.0, invoice_number: WMACCESS
+2025-10-31 10:59:01,110 - INFO - ML Model prediction: office (confidence: 0.85)
+2025-10-31 10:59:01,110 - INFO - [CLASSIFY] ML prediction: office (source: model, confidence: 0.85)
+2025-10-31 10:59:01,111 - INFO - [SUCCESS] Analysis complete: office (model) - vendor=CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, amount=38112.0, invoice_number=WMACCESS
+2025-10-31 11:09:58,637 - INFO - [ANALYZE] Processing: sample-invoice.pdf (381709 bytes)
+2025-10-31 11:09:58,637 - INFO - Extracting text from PDF: uploads\sample-invoice.pdf
+2025-10-31 11:09:58,742 - INFO - Page 1/3: Direct text extraction successful
+2025-10-31 11:09:58,784 - INFO - Page 2/3: Direct text extraction successful
+2025-10-31 11:09:58,831 - INFO - Page 3/3: Direct text extraction successful
+2025-10-31 11:09:58,832 - INFO -  Successfully extracted 2758 characters from PDF (3 pages)
+2025-10-31 11:09:58,832 - INFO - [OCR] Extracted 2758 characters
+2025-10-31 11:09:58,832 - INFO - Parsing invoice text
+2025-10-31 11:09:58,833 - WARNING - Failed to parse date '96/99-08': day is out of range for month: 96/99-08
+2025-10-31 11:09:58,833 - WARNING - Failed to parse date '123100401 12345 01.02.2024 - 29.02.2024 1. März 2024': Unknown string format: 123100401 12345 01.02.2024 - 29.02.2024 1. März 2024
+2025-10-31 11:09:58,834 - INFO - Invoice parsing completed successfully
+2025-10-31 11:09:58,834 - INFO - [PARSE] Extracted vendor: CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, total: 38112.0, invoice_number: WMACCESS
+2025-10-31 11:09:58,835 - INFO - ML Model prediction: office (confidence: 0.85)
+2025-10-31 11:09:58,835 - INFO - [CLASSIFY] ML prediction: office (source: model, confidence: 0.85)
+2025-10-31 11:09:58,836 - INFO - [SUCCESS] Analysis complete: office (model) - vendor=CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, amount=38112.0, invoice_number=WMACCESS
+2025-10-31 11:18:15,290 - INFO - [ANALYZE] Processing: sample-invoice.pdf (381709 bytes)
+2025-10-31 11:18:15,291 - INFO - Extracting text from PDF: uploads\sample-invoice.pdf
+2025-10-31 11:18:15,750 - INFO - Page 1/3: Direct text extraction successful
+2025-10-31 11:18:15,889 - INFO - Page 2/3: Direct text extraction successful
+2025-10-31 11:18:16,060 - INFO - Page 3/3: Direct text extraction successful
+2025-10-31 11:18:16,062 - INFO -  Successfully extracted 2758 characters from PDF (3 pages)
+2025-10-31 11:18:16,062 - INFO - [OCR] Extracted 2758 characters
+2025-10-31 11:18:16,063 - INFO - Parsing invoice text
+2025-10-31 11:18:16,064 - WARNING - Failed to parse date '96/99-08': day is out of range for month: 96/99-08
+2025-10-31 11:18:16,065 - WARNING - Failed to parse date '123100401 12345 01.02.2024 - 29.02.2024 1. März 2024': Unknown string format: 123100401 12345 01.02.2024 - 29.02.2024 1. März 2024
+2025-10-31 11:18:16,068 - INFO - Invoice parsing completed successfully
+2025-10-31 11:18:16,068 - INFO - [PARSE] Extracted vendor: CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, total: 38112.0, invoice_number: WMACCESS
+2025-10-31 11:18:16,073 - INFO - ML Model prediction: office (confidence: 0.85)
+2025-10-31 11:18:16,074 - INFO - [CLASSIFY] ML prediction: office (source: model, confidence: 0.85)
+2025-10-31 11:18:16,075 - INFO - [SUCCESS] Analysis complete: office (model) - vendor=CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, amount=38112.0, invoice_number=WMACCESS
+2025-10-31 11:28:17,464 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 11:28:17,494 - INFO - Invoice Parser initialized
+2025-10-31 11:28:17,506 - INFO - Invoice Classifier initialized successfully
+2025-10-31 11:28:20,853 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 11:28:20,855 - INFO -   Model type: Linear SVM
+2025-10-31 11:28:20,856 - INFO -   Accuracy: 98.33%
+2025-10-31 11:28:20,856 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 11:28:20,857 - INFO - Invoice Classifier initialized successfully
+2025-10-31 11:28:20,857 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 11:28:20,857 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 11:32:14,502 - INFO - [ANALYZE] Processing: sample-invoice.pdf (381709 bytes)
+2025-10-31 11:32:14,503 - INFO - Extracting text from PDF: uploads\sample-invoice.pdf
+2025-10-31 11:32:14,932 - INFO - Page 1/3: Direct text extraction successful
+2025-10-31 11:32:15,095 - INFO - Page 2/3: Direct text extraction successful
+2025-10-31 11:32:15,272 - INFO - Page 3/3: Direct text extraction successful
+2025-10-31 11:32:15,273 - INFO -  Successfully extracted 2758 characters from PDF (3 pages)
+2025-10-31 11:32:15,273 - INFO - [OCR] Extracted 2758 characters
+2025-10-31 11:32:15,274 - INFO - Parsing invoice text
+2025-10-31 11:32:15,278 - WARNING - Failed to parse date '96/99-08': day is out of range for month: 96/99-08
+2025-10-31 11:32:15,280 - WARNING - Failed to parse date '123100401 12345 01.02.2024 - 29.02.2024 1. März 2024': Unknown string format: 123100401 12345 01.02.2024 - 29.02.2024 1. März 2024
+2025-10-31 11:32:15,289 - INFO - Invoice parsing completed successfully
+2025-10-31 11:32:15,289 - INFO - [PARSE] Extracted vendor: CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, total: 38112.0, invoice_number: WMACCESS
+2025-10-31 11:32:15,296 - INFO - ML Model prediction: office (confidence: 0.85)
+2025-10-31 11:32:15,297 - INFO - [CLASSIFY] ML prediction: office (source: model, confidence: 0.85)
+2025-10-31 11:32:15,297 - INFO - [SUCCESS] Analysis complete: office (model) - vendor=CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, amount=38112.0, invoice_number=WMACCESS
+2025-10-31 11:36:16,959 - INFO - [ANALYZE] Processing: sample-invoice.pdf (381709 bytes)
+2025-10-31 11:36:16,960 - INFO - Extracting text from PDF: uploads\sample-invoice.pdf
+2025-10-31 11:36:17,384 - INFO - Page 1/3: Direct text extraction successful
+2025-10-31 11:36:17,569 - INFO - Page 2/3: Direct text extraction successful
+2025-10-31 11:36:17,760 - INFO - Page 3/3: Direct text extraction successful
+2025-10-31 11:36:17,761 - INFO -  Successfully extracted 2758 characters from PDF (3 pages)
+2025-10-31 11:36:17,762 - INFO - [OCR] Extracted 2758 characters
+2025-10-31 11:36:17,763 - INFO - Parsing invoice text
+2025-10-31 11:36:17,764 - WARNING - Failed to parse date '96/99-08': day is out of range for month: 96/99-08
+2025-10-31 11:36:17,766 - WARNING - Failed to parse date '123100401 12345 01.02.2024 - 29.02.2024 1. März 2024': Unknown string format: 123100401 12345 01.02.2024 - 29.02.2024 1. März 2024
+2025-10-31 11:36:17,769 - INFO - Invoice parsing completed successfully
+2025-10-31 11:36:17,769 - INFO - [PARSE] Extracted vendor: CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, total: 38112.0, invoice_number: WMACCESS
+2025-10-31 11:36:17,773 - INFO - ML Model prediction: office (confidence: 0.85)
+2025-10-31 11:36:17,773 - INFO - [CLASSIFY] ML prediction: office (source: model, confidence: 0.85)
+2025-10-31 11:36:17,773 - INFO - [SUCCESS] Analysis complete: office (model) - vendor=CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, amount=38112.0, invoice_number=WMACCESS
+2025-10-31 11:59:36,321 - INFO - [ANALYZE] Processing: sample-invoice.pdf (381709 bytes)
+2025-10-31 11:59:36,322 - INFO - Extracting text from PDF: uploads\sample-invoice.pdf
+2025-10-31 11:59:36,765 - INFO - Page 1/3: Direct text extraction successful
+2025-10-31 11:59:36,985 - INFO - Page 2/3: Direct text extraction successful
+2025-10-31 11:59:37,231 - INFO - Page 3/3: Direct text extraction successful
+2025-10-31 11:59:37,233 - INFO -  Successfully extracted 2758 characters from PDF (3 pages)
+2025-10-31 11:59:37,233 - INFO - [OCR] Extracted 2758 characters
+2025-10-31 11:59:37,234 - INFO - Parsing invoice text
+2025-10-31 11:59:37,235 - WARNING - Failed to parse date '96/99-08': day is out of range for month: 96/99-08
+2025-10-31 11:59:37,236 - WARNING - Failed to parse date '123100401 12345 01.02.2024 - 29.02.2024 1. März 2024': Unknown string format: 123100401 12345 01.02.2024 - 29.02.2024 1. März 2024
+2025-10-31 11:59:37,237 - INFO - Invoice parsing completed successfully
+2025-10-31 11:59:37,238 - INFO - [PARSE] Extracted vendor: CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, total: 38112.0, invoice_number: WMACCESS
+2025-10-31 11:59:37,243 - INFO - ML Model prediction: office (confidence: 0.85)
+2025-10-31 11:59:37,243 - INFO - [CLASSIFY] ML prediction: office (source: model, confidence: 0.85)
+2025-10-31 11:59:37,244 - INFO - [SUCCESS] Analysis complete: office (model) - vendor=CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, amount=38112.0, invoice_number=WMACCESS
+2025-10-31 23:05:10,108 - INFO -  OCR Utility initialized - Tesseract found
+2025-10-31 23:05:10,543 - INFO - Invoice Parser initialized
+2025-10-31 23:05:10,552 - INFO - Invoice Classifier initialized successfully
+2025-10-31 23:05:24,038 - INFO -  ML model loaded from: models\classifier.joblib
+2025-10-31 23:05:24,055 - INFO -   Model type: Linear SVM
+2025-10-31 23:05:24,055 - INFO -   Accuracy: 98.33%
+2025-10-31 23:05:24,055 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-10-31 23:05:24,055 - INFO - Invoice Classifier initialized successfully
+2025-10-31 23:05:24,056 - INFO - Rule-based classifier initialized as fallback
+2025-10-31 23:05:24,056 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-10-31 23:05:38,592 - INFO - [ANALYZE] Processing: sample-invoice.pdf (381709 bytes)
+2025-10-31 23:05:38,593 - INFO - Extracting text from PDF: uploads\sample-invoice.pdf
+2025-10-31 23:05:39,023 - INFO - Page 1/3: Direct text extraction successful
+2025-10-31 23:05:39,164 - INFO - Page 2/3: Direct text extraction successful
+2025-10-31 23:05:39,331 - INFO - Page 3/3: Direct text extraction successful
+2025-10-31 23:05:39,332 - INFO -  Successfully extracted 2758 characters from PDF (3 pages)
+2025-10-31 23:05:39,333 - INFO - [OCR] Extracted 2758 characters
+2025-10-31 23:05:39,334 - INFO - Parsing invoice text
+2025-10-31 23:05:39,345 - WARNING - Failed to parse date '96/99-08': day is out of range for month: 96/99-08
+2025-10-31 23:05:39,347 - WARNING - Failed to parse date '123100401 12345 01.02.2024 - 29.02.2024 1. März 2024': Unknown string format: 123100401 12345 01.02.2024 - 29.02.2024 1. März 2024
+2025-10-31 23:05:39,359 - INFO - Invoice parsing completed successfully
+2025-10-31 23:05:39,361 - INFO - [PARSE] Extracted vendor: CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, total: 38112.0, invoice_number: WMACCESS
+2025-10-31 23:05:39,377 - INFO - ML Model prediction: office (confidence: 0.85)
+2025-10-31 23:05:39,378 - INFO - [CLASSIFY] ML prediction: office (source: model, confidence: 0.85)
+2025-10-31 23:05:39,380 - INFO - [SUCCESS] Analysis complete: office (model) - vendor=CPB Software (Germany) GmbH - Im Bruch 3 - 63897 Miltenberg/Main, amount=38112.0, invoice_number=WMACCESS
+2025-10-31 23:32:45,443 - INFO - [ANALYZE] Processing: 667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png (17170 bytes)
+2025-10-31 23:32:45,445 - INFO - Extracting text from image: uploads\667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png
+2025-10-31 23:32:47,291 - INFO -  Extracted 350 characters from image
+2025-10-31 23:32:47,292 - INFO - [OCR] Extracted 350 characters
+2025-10-31 23:32:47,292 - INFO - Parsing invoice text
+2025-10-31 23:32:47,294 - INFO - Invoice parsing completed successfully
+2025-10-31 23:32:47,294 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry, total: 1254.0, invoice_number: None
+2025-10-31 23:32:47,298 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-31 23:32:47,298 - INFO - [CLASSIFY] ML prediction: transport (source: model, confidence: 0.85)
+2025-10-31 23:32:47,299 - INFO - [SUCCESS] Analysis complete: transport (model) - vendor=Dreamwnse Reaurry, amount=1254.0, invoice_number=None
+2025-10-31 23:33:57,373 - INFO - [ANALYZE] Processing: 667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png (17170 bytes)
+2025-10-31 23:33:57,374 - INFO - Extracting text from image: uploads\667046396d43bd21a3aad108_Real-Estate-Invoice-Blue (1).png
+2025-10-31 23:33:58,926 - INFO -  Extracted 350 characters from image
+2025-10-31 23:33:58,926 - INFO - [OCR] Extracted 350 characters
+2025-10-31 23:33:58,927 - INFO - Parsing invoice text
+2025-10-31 23:33:58,928 - INFO - Invoice parsing completed successfully
+2025-10-31 23:33:58,929 - INFO - [PARSE] Extracted vendor: Dreamwnse Reaurry, total: 1254.0, invoice_number: None
+2025-10-31 23:33:58,931 - INFO - ML Model prediction: transport (confidence: 0.85)
+2025-10-31 23:33:58,932 - INFO - [CLASSIFY] ML prediction: transport (source: model, confidence: 0.85)
+2025-10-31 23:33:58,932 - INFO - [SUCCESS] Analysis complete: transport (model) - vendor=Dreamwnse Reaurry, amount=1254.0, invoice_number=None
+2025-11-01 00:10:58,696 - INFO -  OCR Utility initialized - Tesseract found
+2025-11-01 00:10:58,715 - INFO - Invoice Parser initialized
+2025-11-01 00:10:58,718 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:11:00,095 - INFO -  ML model loaded from: models\classifier.joblib
+2025-11-01 00:11:00,096 - INFO -   Model type: Linear SVM
+2025-11-01 00:11:00,097 - INFO -   Accuracy: 98.33%
+2025-11-01 00:11:00,097 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-11-01 00:11:00,097 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:11:00,097 - INFO - Rule-based classifier initialized as fallback
+2025-11-01 00:11:00,098 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-11-01 00:11:38,650 - INFO -  OCR Utility initialized - Tesseract found
+2025-11-01 00:11:38,662 - INFO - Invoice Parser initialized
+2025-11-01 00:11:38,665 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:11:40,083 - INFO -  ML model loaded from: models\classifier.joblib
+2025-11-01 00:11:40,083 - INFO -   Model type: Linear SVM
+2025-11-01 00:11:40,084 - INFO -   Accuracy: 98.33%
+2025-11-01 00:11:40,084 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-11-01 00:11:40,084 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:11:40,084 - INFO - Rule-based classifier initialized as fallback
+2025-11-01 00:11:40,084 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-11-01 00:14:28,184 - INFO -  OCR Utility initialized - Tesseract found
+2025-11-01 00:14:28,253 - INFO - Invoice Parser initialized
+2025-11-01 00:14:28,265 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:14:30,984 - INFO -  ML model loaded from: models\classifier.joblib
+2025-11-01 00:14:30,986 - INFO -   Model type: Linear SVM
+2025-11-01 00:14:30,986 - INFO -   Accuracy: 98.33%
+2025-11-01 00:14:30,987 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-11-01 00:14:30,987 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:14:30,987 - INFO - Rule-based classifier initialized as fallback
+2025-11-01 00:14:30,988 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-11-01 00:15:25,369 - INFO -  OCR Utility initialized - Tesseract found
+2025-11-01 00:15:25,378 - INFO - Invoice Parser initialized
+2025-11-01 00:15:25,382 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:15:26,771 - INFO -  ML model loaded from: models\classifier.joblib
+2025-11-01 00:15:26,771 - INFO -   Model type: Linear SVM
+2025-11-01 00:15:26,772 - INFO -   Accuracy: 98.33%
+2025-11-01 00:15:26,772 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-11-01 00:15:26,772 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:15:26,772 - INFO - Rule-based classifier initialized as fallback
+2025-11-01 00:15:26,773 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-11-01 00:15:31,798 - INFO -  OCR Utility initialized - Tesseract found
+2025-11-01 00:15:31,835 - INFO - Invoice Parser initialized
+2025-11-01 00:15:31,841 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:15:33,197 - INFO -  ML model loaded from: models\classifier.joblib
+2025-11-01 00:15:33,198 - INFO -   Model type: Linear SVM
+2025-11-01 00:15:33,198 - INFO -   Accuracy: 98.33%
+2025-11-01 00:15:33,199 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-11-01 00:15:33,200 - INFO - Invoice Classifier initialized successfully
+2025-11-01 00:15:33,200 - INFO - Rule-based classifier initialized as fallback
+2025-11-01 00:15:33,201 - INFO - ExpenseClassifier initialized (ML Model: True)

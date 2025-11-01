@@ -1,0 +1,5 @@
+/* Use `src/index.css` for Tailwind directives. Keep this file for component-specific styles if needed. */
+
+/* Example local styles (optional) */
+/* .my-local-class { color: rebeccapurple; } */
+@import "tailwindcss";

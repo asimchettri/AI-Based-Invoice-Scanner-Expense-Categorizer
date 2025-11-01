@@ -10,8 +10,10 @@ from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score, classification_report, f1_score, precision_score, recall_score
 import joblib
 import os
+import sys
 import argparse
 from datetime import datetime
+from pathlib import Path
 from utils.cleaner import clean_text_for_model
 from pymongo import MongoClient
 
@@ -26,8 +28,7 @@ except ImportError:
 class ExpenseModelTrainer:
 
     def __init__(self,data_source='csv',csv_path='data/sample_data.csv',mongo_uri=None,db_name='expense_db',collection_name='expenses',use_mlflow=False,experiment_name='expense_categorization'):
-        # mongodb needs to be checked
-
+        
         self.data_source = data_source
         self.csv_path = csv_path
         self.mongo_uri = mongo_uri
@@ -39,6 +40,22 @@ class ExpenseModelTrainer:
         
         if self.use_mlflow:
             mlflow.set_experiment(experiment_name)
+        
+        # Print version info for debugging
+        self.print_version_info()
+
+    def print_version_info(self):
+        """Print dependency versions for debugging"""
+        import sklearn
+        print("\n" + "="*70)
+        print("DEPENDENCY VERSIONS")
+        print("="*70)
+        print(f"Python:        {sys.version.split()[0]}")
+        print(f"NumPy:         {np.__version__}")
+        print(f"Scikit-learn:  {sklearn.__version__}")
+        print(f"Joblib:        {joblib.__version__}")
+        print(f"Pandas:        {pd.__version__}")
+        print("="*70 + "\n")
 
     def load_data_from_csv(self):
         print(f"Loading data from CSV: {self.csv_path}...")
@@ -55,11 +72,9 @@ class ExpenseModelTrainer:
         db= client[self.db_name]
         collection = db[self.collection_name]
 
-        #fetch all documents
         cursor= collection.find({})
         df= pd.DataFrame(list(cursor))
 
-        #drop the _id
         if '_id' in df.columns:
             df=df.drop('_id',axis=1)
 
@@ -79,13 +94,11 @@ class ExpenseModelTrainer:
         print(f"Dataset shape: {df.shape}")
         print(f"Columns: {df.columns.tolist()}")
 
-        #check for the req columns
         required_columns =['vendor','description','amount','category']
         missing_cols= [col for col in required_columns if col not in df.columns]
         if missing_cols:
             raise ValueError(f"Missing required columns: {missing_cols}")
         
-        #remove rows with missing category
         initial_size = len(df)
         df= df.dropna(subset=['category'])
         print(f"Removed {initial_size - len(df)} rows with missing categories")
@@ -98,12 +111,10 @@ class ExpenseModelTrainer:
     
     def create_combined_features(self,df):
 
-        #clean individual fields
         df['vendor_clean'] = df['vendor'].apply(clean_text_for_model)
         df['description_clean'] = df['description'].apply(clean_text_for_model)
         df['amount_str'] = df['amount'].apply(lambda x: f"amount_{str(int(float(x))) if not pd.isna(x) else '0'}")
 
-         # Combine all features
         df['combined_text'] = (
             df['vendor_clean'] + ' ' + 
             df['description_clean'] + ' ' + 
@@ -185,17 +196,21 @@ class ExpenseModelTrainer:
         best_name = ""
         best_params = None
 
+        print("\n" + "="*70)
         print("TRAINING AND EVALUATING MODELS")
+        print("="*70 + "\n")
 
         for name,config in configs.items():
-            print (f"training :{name}")
+            print(f"\n{'─'*70}")
+            print(f"Training: {name}")
+            print(f"{'─'*70}")
 
             if self.use_mlflow:
                 mlflow.start_run(run_name=name)
 
             try:
                 if use_grid_search:
-                    print("performing gridsearch for hyperparameter tuning")
+                    print("Performing GridSearch for hyperparameter tuning...")
                     grid_search = GridSearchCV(
                         config['pipeline'],
                         config['param_grid'],
@@ -223,17 +238,13 @@ class ExpenseModelTrainer:
                 print(f"  Precision: {metrics['precision']:.4f}")
                 print(f"  Recall:    {metrics['recall']:.4f}")
 
-                 
-                # Cross-validation
                 cv_scores = cross_val_score(model, x_train, y_train, cv=5, scoring='accuracy')
                 print(f"\nCross-validation scores: {cv_scores}")
                 print(f"Mean CV Score: {cv_scores.mean():.4f} (+/- {cv_scores.std() * 2:.4f})")
                 
-                # Classification report
                 print(f"\nClassification Report:")
                 print(classification_report(y_test, y_pred))
                 
-                # Store results
                 result_entry = {
                     'model_name': name,
                     'timestamp': datetime.now().isoformat(),
@@ -250,7 +261,6 @@ class ExpenseModelTrainer:
                 results[name] = result_entry
                 self.results_log.append(result_entry)
                 
-                # Log to MLflow
                 if self.use_mlflow:
                     mlflow.log_params(best_grid_params if best_grid_params else {})
                     mlflow.log_metrics(metrics)
@@ -258,22 +268,26 @@ class ExpenseModelTrainer:
                     mlflow.log_metric('cv_std', cv_scores.std())
                     mlflow.sklearn.log_model(model, "model")
                 
-                
                 if metrics['accuracy'] > best_accuracy:
                     best_accuracy = metrics['accuracy']
                     best_model = model
                     best_name = name
                     best_params = best_grid_params
             
+            except Exception as e:
+                print(f"❌ Error training {name}: {e}")
+                import traceback
+                traceback.print_exc()
+            
             finally:
                 if self.use_mlflow:
                     mlflow.end_run()
 
-
+        print("\n" + "="*70)
         print("RESULTS SUMMARY")
-        
+        print("="*70)
         print(f"{'Model':<25} {'Accuracy':<10} {'F1-Score':<10} {'Precision':<10} {'Recall':<10}")
-       
+        print("─"*70)
         
         for name, res in sorted(results.items(), key=lambda x: x[1]['accuracy'], reverse=True):
             print(f"{name:<25} {res['accuracy']:.4f}     {res['f1_score']:.4f}     "
@@ -284,7 +298,7 @@ class ExpenseModelTrainer:
         print(f"BEST ACCURACY: {best_accuracy:.4f} ({best_accuracy*100:.2f}%)")
         if best_params:
             print(f"BEST PARAMS: {best_params}")
-        print(f"{'='*70}")
+        print(f"{'='*70}\n")
         
         return best_model, best_name, best_accuracy, results  
     
@@ -294,55 +308,119 @@ class ExpenseModelTrainer:
 
         df_results= pd.DataFrame(self.results_log)
 
-        #append to existing file if it exists
         if os.path.exists(filepath):
             df_existing = pd.read_csv(filepath)
             df_results = pd.concat([df_existing, df_results], ignore_index=True)
 
-            df_results.to_csv(filepath,index=False)
-            print(f"\n training results saved")
+        df_results.to_csv(filepath,index=False)
+        print(f"✅ Training results saved to: {filepath}")
 
-    def save_model(self,model,model_name,accuracy,categories,train_size,test_size):
-
-        os.makedirs('models',exist_ok=True)
-
-        model_path = 'models/classifier.joblib'
-        joblib.dump(model,model_path)
-        print(f"\n model saved to :{model_path}")
-
-        #save metadata
+    def save_model(self, model, model_name, accuracy, categories, train_size, test_size):
+        """Save model with proper error handling and verification"""
+        
+        print("\n" + "="*70)
+        print("SAVING MODEL")
+        print("="*70)
+        
+        # Ensure models directory exists
+        models_dir = Path('models')
+        models_dir.mkdir(parents=True, exist_ok=True)
+        
+        model_path = models_dir / 'classifier.joblib'
+        metadata_path = models_dir / 'metadata.joblib'
+        
+        # Prepare metadata
         metadata = {
             'model_name': model_name,
-            'accuracy': accuracy,
+            'accuracy': float(accuracy),
             'categories': categories,
-            'training_samples': train_size,
-            'test_samples': test_size,
+            'training_samples': int(train_size),
+            'test_samples': int(test_size),
             'trained_at': datetime.now().isoformat(),
-            'data_source': self.data_source
+            'data_source': self.data_source,
+            'numpy_version': np.__version__,
+            'sklearn_version': __import__('sklearn').__version__,
+            'python_version': sys.version.split()[0]
         }
-
-        metadata_path = 'models/metadata.joblib'
-        joblib.dump(metadata, metadata_path)
-        print(f"   Metadata saved to: {metadata_path}")
+        
+        try:
+            # Save model with compression
+            print(f"Saving model to: {model_path}")
+            joblib.dump(model, model_path, compress=3)
+            
+            # Verify model was saved correctly
+            print("Verifying model save...")
+            test_model = joblib.load(model_path)
+            print("✅ Model saved and verified successfully")
+            
+            # Get file size
+            model_size = model_path.stat().st_size / (1024 * 1024)  # Convert to MB
+            print(f"   Model size: {model_size:.2f} MB")
+            
+        except Exception as e:
+            print(f"❌ ERROR saving model: {e}")
+            raise
+        
+        try:
+            # Save metadata
+            print(f"\nSaving metadata to: {metadata_path}")
+            joblib.dump(metadata, metadata_path, compress=3)
+            
+            # Verify metadata was saved correctly
+            print("Verifying metadata save...")
+            test_metadata = joblib.load(metadata_path)
+            print("✅ Metadata saved and verified successfully")
+            
+            # Print metadata summary
+            print(f"\nModel Metadata:")
+            print(f"   Model Type: {metadata['model_name']}")
+            print(f"   Accuracy: {metadata['accuracy']*100:.2f}%")
+            print(f"   Categories: {len(metadata['categories'])}")
+            print(f"   Training Samples: {metadata['training_samples']}")
+            print(f"   Test Samples: {metadata['test_samples']}")
+            print(f"   NumPy Version: {metadata['numpy_version']}")
+            print(f"   Scikit-learn Version: {metadata['sklearn_version']}")
+            
+        except Exception as e:
+            print(f"❌ ERROR saving metadata: {e}")
+            raise
+        
+        print("="*70 + "\n")
 
     def load_existing_model(self):
-       
-        model_path = 'models/classifier.joblib'
-        metadata_path = 'models/metadata.joblib'
+        """Load existing model with proper error handling"""
         
-        if not os.path.exists(model_path):
+        model_path = Path('models/classifier.joblib')
+        metadata_path = Path('models/metadata.joblib')
+        
+        if not model_path.exists():
             raise FileNotFoundError(f"No model found at {model_path}")
         
-        model = joblib.load(model_path)
-        metadata = joblib.load(metadata_path) if os.path.exists(metadata_path) else {}
-        
-        print(f"\n  Loaded existing model from: {model_path}")
-        if metadata:
-            print(f"   Model type: {metadata.get('model_name', 'Unknown')}")
-            print(f"   Previous accuracy: {metadata.get('accuracy', 0)*100:.2f}%")
-            print(f"   Trained at: {metadata.get('trained_at', 'Unknown')}")
-        
-        return model, metadata  
+        try:
+            print("\n" + "="*70)
+            print("LOADING EXISTING MODEL")
+            print("="*70)
+            
+            model = joblib.load(model_path)
+            print(f"✅ Model loaded from: {model_path}")
+            
+            metadata = {}
+            if metadata_path.exists():
+                metadata = joblib.load(metadata_path)
+                print(f"✅ Metadata loaded from: {metadata_path}")
+                print(f"\nPrevious Model Info:")
+                print(f"   Model type: {metadata.get('model_name', 'Unknown')}")
+                print(f"   Accuracy: {metadata.get('accuracy', 0)*100:.2f}%")
+                print(f"   Trained at: {metadata.get('trained_at', 'Unknown')}")
+                print(f"   NumPy version: {metadata.get('numpy_version', 'Unknown')}")
+                print(f"   Scikit-learn version: {metadata.get('sklearn_version', 'Unknown')}")
+            
+            print("="*70 + "\n")
+            return model, metadata
+            
+        except Exception as e:
+            print(f"❌ ERROR loading model: {e}")
+            raise
 
     def train(self,use_grid_search=True):
 
@@ -352,27 +430,30 @@ class ExpenseModelTrainer:
         x= df['combined_text']
         y= df['category']
 
-        x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.2,random_state=42,stratify=y)
+        x_train,x_test,y_train,y_test = train_test_split(
+            x, y, test_size=0.2, random_state=42, stratify=y
+        )
 
         print(f"\nTraining set size: {len(x_train)}")
         print(f"Test set size: {len(x_test)}")
 
-        best_model,best_name,best_accuracy,results=self.train_with_grid_search(x_train,x_test,y_train,y_test,use_grid_search)
+        best_model,best_name,best_accuracy,results=self.train_with_grid_search(
+            x_train,x_test,y_train,y_test,use_grid_search
+        )
 
         if best_accuracy >= 0.80:
-            print(f"\n SUCCESS! Best model accuracy ({best_accuracy*100:.2f}%) meets the ≥80% threshold")
+            print(f"✅ SUCCESS! Best model accuracy ({best_accuracy*100:.2f}%) meets the ≥80% threshold")
         else:
-            print(f"\n  WARNING: Best model accuracy ({best_accuracy*100:.2f}%) is below 80% threshold")
+            print(f"⚠️  WARNING: Best model accuracy ({best_accuracy*100:.2f}%) is below 80% threshold")
 
-        
-        self.save_model(best_model, best_name, best_accuracy,
-                       y.unique().tolist(), len(x_train), len(x_test))
+        self.save_model(
+            best_model, best_name, best_accuracy,
+            y.unique().tolist(), len(x_train), len(x_test)
+        )
 
         self.save_results_to_csv()
         
         return best_model, best_accuracy, results
-    
-
     
 def main():
     """Main function with CLI arguments."""
@@ -413,53 +494,29 @@ def main():
             print("Previous model loaded. Will compare with new training results.\n")
         except FileNotFoundError as e:
             print(f"No existing model found: {e}\n")
+        except Exception as e:
+            print(f"Error loading existing model: {e}\n")
     
     # Train model
-    
+    print("\n" + "="*70)
     print("STARTING TRAINING PIPELINE")
+    print("="*70 + "\n")
     
+    try:
+        model, accuracy, results = trainer.train(use_grid_search=not args.no_grid_search)
+        
+        print("\n" + "="*70)
+        print("✅ TRAINING COMPLETE!")
+        print("="*70 + "\n")
+        
+        return model, accuracy
     
-    model, accuracy, results = trainer.train(use_grid_search=not args.no_grid_search)
-    
-    
-    print("TRAINING COMPLETE!")
-    
-    
-    return model, accuracy
+    except Exception as e:
+        print(f"\n❌ TRAINING FAILED: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
 
 
 if __name__ == "__main__":
     model, accuracy = main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

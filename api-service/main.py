@@ -6,6 +6,10 @@ from pydantic import BaseModel, Field
 from pathlib import Path
 from typing import List, Optional
 import logging
+#add to try
+from utils import cleaner
+
+
 
 # Import existing utilities
 from ocr import OCRUtility
@@ -37,9 +41,6 @@ print("Added utils path:", UTILS_PATH)
 try:
     from utils.cleaner import guess_vendor, extract_total_amount, clean_text_for_model
 except ImportError:
-    try:
-        from cleaner import guess_vendor, extract_total_amount, clean_text_for_model
-    except ImportError:
         print("Warning: cleaner.py not found. Limited functionality.")
         def guess_vendor(text): return None
         def extract_total_amount(text): return None

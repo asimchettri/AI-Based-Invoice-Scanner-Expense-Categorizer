@@ -2,7 +2,7 @@ import re
 import logging
 from typing import List, Optional, Tuple
 
-from matplotlib import text
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

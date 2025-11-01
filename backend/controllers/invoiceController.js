@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const FormData = require('form-data');
 const axios = require('axios');
-const Invoice = require('../models/Invoice');
+const Invoice = require('../models/invoice');
 
 const uploadDir = path.join(__dirname, '../uploads');
 const FASTAPI_URL = process.env.FASTAPI_URL || 'http://127.0.0.1:8000';

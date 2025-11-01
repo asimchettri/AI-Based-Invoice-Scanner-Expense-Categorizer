@@ -19,7 +19,23 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Tesseract path for Windows
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+import platform
+import shutil
+
+# Automatically detect tesseract path based on OS
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+else:
+    pytesseract_path = shutil.which("tesseract")
+    if pytesseract_path:
+        pytesseract.pytesseract.tesseract_cmd = pytesseract_path
+    else:
+        # fallback for safety
+        pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+
+print("Using Tesseract at:", pytesseract.pytesseract.tesseract_cmd)
+
 
 
 class OCRUtility:

@@ -20,9 +20,18 @@ except ImportError:
     print("Warning: ml_model.py not found. Using rule-based classification only.")
     ML_MODEL_AVAILABLE = False
 
+#added later due to error in render while importing cleaner.py
+import os
+import sys
 
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(__file__), "utils"))
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+UTILS_PATH = os.path.join(BASE_DIR, "utils")
+
+if UTILS_PATH not in sys.path:
+    sys.path.append(UTILS_PATH)
+
+print("Added utils path:", UTILS_PATH)
 
 
 # Import cleaner utilities

@@ -18,7 +18,7 @@ try:
     NUMPY_VERSION = np.__version__
     SKLEARN_VERSION = sklearn.__version__
 except ImportError as e:
-    print(f"❌ Critical dependency missing: {e}")
+    print(f" Critical dependency missing: {e}")
     sys.exit(1)
 
 # Import existing classifier
@@ -26,7 +26,7 @@ try:
     from classifier import InvoiceClassifier
     RULE_CLASSIFIER_AVAILABLE = True 
 except ImportError:
-    print("⚠️  Warning: classifier.py not found. Rule-based classification will be limited.")
+    print("  Warning: classifier.py not found. Rule-based classification will be limited.")
     RULE_CLASSIFIER_AVAILABLE = False
     InvoiceClassifier = None
 
@@ -34,7 +34,7 @@ except ImportError:
 try:
     from utils.cleaner import clean_text_for_model, extract_amounts, extract_total_amount
 except ImportError:
-    print("⚠️  Warning: cleaner.py not found. Using basic text cleaning")
+    print("  Warning: cleaner.py not found. Using basic text cleaning")
     def clean_text_for_model(text, lowercase=True):
         return text.lower().strip() if lowercase else text.strip()
     def extract_amounts(text):
@@ -74,7 +74,7 @@ def check_version_compatibility():
             )
             return False
         
-        logger.info(f"✅ Dependencies compatible: NumPy {NUMPY_VERSION}, scikit-learn {SKLEARN_VERSION}")
+        logger.info(f" Dependencies compatible: NumPy {NUMPY_VERSION}, scikit-learn {SKLEARN_VERSION}")
         return True
         
     except Exception as e:
@@ -83,10 +83,7 @@ def check_version_compatibility():
 
 
 class ExpenseClassifier:
-    """
-    Expense classifier with ML model and rule-based fallback.
-    Automatically falls back to rule-based classification if ML model fails.
-    """
+   
 
     def __init__(self, model_path: str = "models/classifier.joblib"):
         self.model_path = Path(model_path)
@@ -106,9 +103,9 @@ class ExpenseClassifier:
         if RULE_CLASSIFIER_AVAILABLE:
             try:
                 self.rule_classifier = InvoiceClassifier()
-                logger.info("✅ Rule-based classifier initialized as fallback")
+                logger.info(" Rule-based classifier initialized as fallback")
             except Exception as e:
-                logger.error(f"❌ Error initializing rule-based classifier: {e}")
+                logger.error(f" Error initializing rule-based classifier: {e}")
         
         logger.info(f"ExpenseClassifier initialized (ML Model: {self.model_loaded})")
 
@@ -117,26 +114,26 @@ class ExpenseClassifier:
         
         try:
             if not self.model_path.exists():
-                logger.warning(f"⚠️  Model file not found at: {self.model_path}")
+                logger.warning(f"  Model file not found at: {self.model_path}")
                 logger.info("Will use rule-based classification as fallback")
                 return False
             
             # Check file size
             file_size = self.model_path.stat().st_size
             if file_size < 1000:  # Less than 1KB is suspicious
-                logger.warning(f"⚠️  Model file seems too small ({file_size} bytes). May be corrupted.")
+                logger.warning(f"  Model file seems too small ({file_size} bytes). May be corrupted.")
                 return False
             
             logger.info(f"Loading model from: {self.model_path} ({file_size / (1024*1024):.2f} MB)")
             
             # Load the model
             self.model = joblib.load(self.model_path)
-            logger.info(f"✅ ML model loaded successfully")
+            logger.info(f" ML model loaded successfully")
             logger.info(f"   Model type: {type(self.model).__name__}")
             
             # Verify model has required methods
             if not hasattr(self.model, 'predict'):
-                logger.error("❌ Loaded model doesn't have 'predict' method")
+                logger.error(" Loaded model doesn't have 'predict' method")
                 self.model = None
                 return False
             
@@ -145,7 +142,7 @@ class ExpenseClassifier:
             if metadata_path.exists():
                 try:
                     self.metadata = joblib.load(metadata_path)
-                    logger.info(f"✅ Metadata loaded successfully")
+                    logger.info(f" Metadata loaded successfully")
                     logger.info(f"   Model name: {self.metadata.get('model_name', 'Unknown')}")
                     logger.info(f"   Accuracy: {self.metadata.get('accuracy', 0)*100:.2f}%")
                     logger.info(f"   Trained at: {self.metadata.get('trained_at', 'Unknown')}")
@@ -156,7 +153,7 @@ class ExpenseClassifier:
                     # Check for version mismatch
                     if self.metadata.get('numpy_version') != NUMPY_VERSION:
                         logger.warning(
-                            f"⚠️  NumPy version mismatch: "
+                            f"  NumPy version mismatch: "
                             f"Model trained with {self.metadata.get('numpy_version')}, "
                             f"running with {NUMPY_VERSION}"
                         )
@@ -165,14 +162,14 @@ class ExpenseClassifier:
                     logger.warning(f"Could not load metadata: {e}")
                     self.metadata = self._get_default_metadata()
             else:
-                logger.warning("⚠️  Metadata file not found, using defaults")
+                logger.warning("  Metadata file not found, using defaults")
                 self.metadata = self._get_default_metadata()
             
             self.model_loaded = True
             return True
             
         except ModuleNotFoundError as e:
-            logger.error(f"❌ Module not found error: {e}")
+            logger.error(f" Module not found error: {e}")
             logger.error("   This usually means NumPy/scikit-learn version mismatch")
             logger.error(f"   Current versions: NumPy {NUMPY_VERSION}, scikit-learn {SKLEARN_VERSION}")
             self.model = None
@@ -180,7 +177,7 @@ class ExpenseClassifier:
             return False
             
         except Exception as e:
-            logger.error(f"❌ Error loading model: {type(e).__name__}: {str(e)}")
+            logger.error(f" Error loading model: {type(e).__name__}: {str(e)}")
             logger.info("Will use rule-based classification as fallback")
             self.model = None
             self.model_loaded = False
@@ -197,10 +194,7 @@ class ExpenseClassifier:
         }
     
     def rule_based_classify(self, text: str) -> Tuple[str, float]:
-        """
-        Perform rule-based classification as fallback.
-        Returns: (category, confidence)
-        """
+       
         
         # Use advanced rule-based classifier if available
         if self.rule_classifier:
@@ -243,20 +237,7 @@ class ExpenseClassifier:
         description: str = "", 
         amount: float = 0.0
     ) -> Tuple[str, str, float]:
-        """
-        Predict expense category using ML model or fallback to rules.
-        
-        Args:
-            vendor: Vendor name
-            description: Transaction description
-            amount: Transaction amount
-            
-        Returns:
-            (category, source, confidence)
-            - category: predicted category
-            - source: 'model' or 'rule'
-            - confidence: 0.0-1.0
-        """
+      
         
         # Clean and combine features
         vendor_clean = clean_text_for_model(str(vendor)) if vendor else ""
@@ -290,15 +271,7 @@ class ExpenseClassifier:
         return category, "rule", confidence
     
     def predict_from_text(self, text: str) -> Tuple[str, str, float]:
-        """
-        Predict category from raw text.
-        
-        Args:
-            text: Raw text to classify
-            
-        Returns:
-            (category, source, confidence)
-        """
+       
         
         if self.model_loaded and self.model:
             try:

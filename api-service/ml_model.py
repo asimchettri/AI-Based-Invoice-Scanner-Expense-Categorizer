@@ -75,18 +75,27 @@ class ExpenseClassifier:
                 logger.warning(f"Model file not found at: {self.model_path}")
                 logger.info("Will use rule-based classification as fallback")
                 return False
-            
-            #load model
+        
+            # Load the model object
             self.model = joblib.load(self.model_path)
-            logger.info(f" ML model loaded from: {self.model_path}")
+            logger.info(f"✅ ML model loaded from: {self.model_path}")
+            logger.info(f"  Model type: {type(self.model).__name__}")
             
-            # Load metadata if available
+            # Load metadata from separate file
             metadata_path = self.model_path.parent / "metadata.joblib"
             if metadata_path.exists():
                 self.metadata = joblib.load(metadata_path)
-                logger.info(f"  Model type: {self.metadata.get('model_name', 'Unknown')}")
+                logger.info(f"  Model name: {self.metadata.get('model_name', 'Unknown')}")
                 logger.info(f"  Accuracy: {self.metadata.get('accuracy', 0)*100:.2f}%")
                 logger.info(f"  Trained at: {self.metadata.get('trained_at', 'Unknown')}")
+                logger.info(f"  Training samples: {self.metadata.get('training_samples', 'Unknown')}")
+            else:
+                logger.warning("Metadata file not found, using default info")
+                self.metadata = {
+                    'model_name': type(self.model).__name__,
+                    'accuracy': 0.9833,  # From your training results
+                    'categories': ['office', 'meals', 'transport', 'groceries', 'other', 'health', 'subscription', 'maintenance', 'entertainment', 'accommodation', 'utilities', 'travel']
+                }
             
             self.model_loaded = True
             return True

@@ -1,13 +1,16 @@
 import React, { useState, useRef } from 'react';
 import { Upload, X, CheckCircle, AlertCircle, Loader, Edit2, Save } from 'lucide-react';
 
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 const CONFIG = {
-  API_ENDPOINT: 'http://localhost:3000/api/invoices/upload', 
-  UPDATE_ENDPOINT: 'http://localhost:3000/api/invoices', 
+  API_ENDPOINT: `${BASE_URL}/invoices/upload`,
+  UPDATE_ENDPOINT: `${BASE_URL}/invoices`,
   MAX_FILE_SIZE: 5 * 1024 * 1024,
   ALLOWED_TYPES: ['application/pdf', 'image/jpeg', 'image/png', 'image/jpg'],
   MESSAGE_DURATION: 5000,
 };
+
 
 const CATEGORIES = [
   'travel',

@@ -3,7 +3,8 @@ import { Upload, DollarSign, FileText, TrendingUp, Calendar, ArrowUpRight, Loade
 import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = 'http://localhost:3000/api/invoices';
+const API_BASE = `${import.meta.env.VITE_API_BASE_URL}/invoices`;
+
 
 
 const Dashboard = () => {

@@ -47,5 +47,5 @@ app.use((error, req, res, next) => {
 // Test route
 app.get('/', (req, res) => res.json({ status: 'backend ok' }));
 
-// Start server
-app.listen(3000, () => console.log('Backend running on port 3000'));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));

@@ -119,6 +119,7 @@ const InvoiceSchema = new mongoose.Schema({
       'entertainment',
       'maintenance',
       'transport',
+      'groceries',
       'other'
     ],
     default: 'other',

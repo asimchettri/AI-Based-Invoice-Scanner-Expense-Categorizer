@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Search, Filter, Download, Trash2, Eye, ChevronUp, ChevronDown, Loader, FileText, Calendar, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE = 'http://localhost:3000/api/invoices';
+const API_BASE = `${import.meta.env.VITE_API_BASE_URL}/invoices`;
+
 
 const CATEGORIES = ['travel', 'meals', 'saas', 'office', 'utilities', 'healthcare', 'retail', 'education', 'entertainment', 'maintenance', 'other'];
 

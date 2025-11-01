@@ -275,7 +275,7 @@ class ExpenseModelTrainer:
                     best_params = best_grid_params
             
             except Exception as e:
-                print(f"❌ Error training {name}: {e}")
+                print(f" Error training {name}: {e}")
                 import traceback
                 traceback.print_exc()
             
@@ -313,7 +313,7 @@ class ExpenseModelTrainer:
             df_results = pd.concat([df_existing, df_results], ignore_index=True)
 
         df_results.to_csv(filepath,index=False)
-        print(f"✅ Training results saved to: {filepath}")
+        print(f" Training results saved to: {filepath}")
 
     def save_model(self, model, model_name, accuracy, categories, train_size, test_size):
         """Save model with proper error handling and verification"""
@@ -351,7 +351,7 @@ class ExpenseModelTrainer:
             # Verify model was saved correctly
             print("Verifying model save...")
             test_model = joblib.load(model_path)
-            print("✅ Model saved and verified successfully")
+            print(" Model saved and verified successfully")
             
             # Get file size
             model_size = model_path.stat().st_size / (1024 * 1024)  # Convert to MB
@@ -369,7 +369,7 @@ class ExpenseModelTrainer:
             # Verify metadata was saved correctly
             print("Verifying metadata save...")
             test_metadata = joblib.load(metadata_path)
-            print("✅ Metadata saved and verified successfully")
+            print(" Metadata saved and verified successfully")
             
             # Print metadata summary
             print(f"\nModel Metadata:")
@@ -382,7 +382,7 @@ class ExpenseModelTrainer:
             print(f"   Scikit-learn Version: {metadata['sklearn_version']}")
             
         except Exception as e:
-            print(f"❌ ERROR saving metadata: {e}")
+            print(f" ERROR saving metadata: {e}")
             raise
         
         print("="*70 + "\n")
@@ -402,12 +402,12 @@ class ExpenseModelTrainer:
             print("="*70)
             
             model = joblib.load(model_path)
-            print(f"✅ Model loaded from: {model_path}")
+            print(f" Model loaded from: {model_path}")
             
             metadata = {}
             if metadata_path.exists():
                 metadata = joblib.load(metadata_path)
-                print(f"✅ Metadata loaded from: {metadata_path}")
+                print(f" Metadata loaded from: {metadata_path}")
                 print(f"\nPrevious Model Info:")
                 print(f"   Model type: {metadata.get('model_name', 'Unknown')}")
                 print(f"   Accuracy: {metadata.get('accuracy', 0)*100:.2f}%")
@@ -419,7 +419,7 @@ class ExpenseModelTrainer:
             return model, metadata
             
         except Exception as e:
-            print(f"❌ ERROR loading model: {e}")
+            print(f" ERROR loading model: {e}")
             raise
 
     def train(self,use_grid_search=True):
@@ -442,9 +442,9 @@ class ExpenseModelTrainer:
         )
 
         if best_accuracy >= 0.80:
-            print(f"✅ SUCCESS! Best model accuracy ({best_accuracy*100:.2f}%) meets the ≥80% threshold")
+            print(f" SUCCESS! Best model accuracy ({best_accuracy*100:.2f}%) meets the ≥80% threshold")
         else:
-            print(f"⚠️  WARNING: Best model accuracy ({best_accuracy*100:.2f}%) is below 80% threshold")
+            print(f"  WARNING: Best model accuracy ({best_accuracy*100:.2f}%) is below 80% threshold")
 
         self.save_model(
             best_model, best_name, best_accuracy,
@@ -506,13 +506,13 @@ def main():
         model, accuracy, results = trainer.train(use_grid_search=not args.no_grid_search)
         
         print("\n" + "="*70)
-        print("✅ TRAINING COMPLETE!")
+        print(" TRAINING COMPLETE!")
         print("="*70 + "\n")
         
         return model, accuracy
     
     except Exception as e:
-        print(f"\n❌ TRAINING FAILED: {e}")
+        print(f"\n TRAINING FAILED: {e}")
         import traceback
         traceback.print_exc()
         sys.exit(1)

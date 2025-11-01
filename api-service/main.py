@@ -20,6 +20,11 @@ except ImportError:
     print("Warning: ml_model.py not found. Using rule-based classification only.")
     ML_MODEL_AVAILABLE = False
 
+
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(__file__), "utils"))
+
+
 # Import cleaner utilities
 try:
     from utils.cleaner import guess_vendor, extract_total_amount, clean_text_for_model

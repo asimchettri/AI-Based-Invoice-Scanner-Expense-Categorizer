@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ##trying to make cleaner.py and tessarac work
+=======
+>>>>>>> b6bf284 (using docker in fastapi)
 services:
   - type: web
     name: ai-invoice-api-service

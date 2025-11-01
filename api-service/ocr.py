@@ -18,8 +18,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Tesseract path for Windows
+# # Tesseract path for Windows
 # pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 import platform
 import shutil
 
@@ -45,17 +46,17 @@ class OCRUtility:
     SUPPORTED_DOCUMENT_FORMATS = {'.pdf'}
 
     def __init__(self, tesseract_path: Optional[str] = None):
-      
         if tesseract_path:
             pytesseract.pytesseract.tesseract_cmd = tesseract_path
         
         # Verify Tesseract is installed
         try:
-            pytesseract.get_tesseract_version()
-            logger.info(" OCR Utility initialized - Tesseract found")
+            version = pytesseract.get_tesseract_version()
+            logger.info(f"✅ OCR Utility initialized - Tesseract {version}")
         except pytesseract.TesseractNotFoundError:
-            logger.error(" Tesseract not found! Please install it from: https://github.com/UB-Mannheim/tesseract/wiki")
+            logger.error("❌ Tesseract not found!")
             raise
+
 
     @staticmethod
     def preprocess_image(path: Path) -> cv2.typing.MatLike:  # Fixed: Added type hint

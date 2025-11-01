@@ -912,3 +912,36 @@
 2025-11-01 16:14:33,354 - INFO - ML Model prediction: groceries (confidence: 0.85)
 2025-11-01 16:14:33,354 - INFO - [CLASSIFY] ML prediction: groceries (source: model, confidence: 0.85)
 2025-11-01 16:14:33,355 - INFO - [SUCCESS] Analysis complete: groceries (model) - vendor=16.12.2021, amount=2553.91, invoice_number=No
+2025-11-01 19:34:39,095 - INFO -  OCR Utility initialized - Tesseract found
+2025-11-01 19:34:39,103 - INFO - Invoice Parser initialized
+2025-11-01 19:34:39,107 - INFO - Invoice Classifier initialized successfully
+2025-11-01 19:34:40,011 - INFO -  ML model loaded from: models\classifier.joblib
+2025-11-01 19:34:40,011 - INFO -   Model type: Linear SVM
+2025-11-01 19:34:40,011 - INFO -   Accuracy: 98.33%
+2025-11-01 19:34:40,012 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-11-01 19:34:40,012 - INFO - Invoice Classifier initialized successfully
+2025-11-01 19:34:40,012 - INFO - Rule-based classifier initialized as fallback
+2025-11-01 19:34:40,012 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-11-01 19:34:40,012 - INFO -  ML Classifier with fallback initialized
+2025-11-01 19:36:48,385 - INFO -  OCR Utility initialized - Tesseract found
+2025-11-01 19:36:48,397 - INFO - Invoice Parser initialized
+2025-11-01 19:36:48,400 - INFO - Invoice Classifier initialized successfully
+2025-11-01 19:36:49,570 - INFO -  ML model loaded from: models\classifier.joblib
+2025-11-01 19:36:49,571 - INFO -   Model type: Linear SVM
+2025-11-01 19:36:49,571 - INFO -   Accuracy: 98.33%
+2025-11-01 19:36:49,571 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-11-01 19:36:49,572 - INFO - Invoice Classifier initialized successfully
+2025-11-01 19:36:49,572 - INFO - Rule-based classifier initialized as fallback
+2025-11-01 19:36:49,572 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-11-01 19:36:49,572 - INFO -  ML Classifier with fallback initialized
+2025-11-01 19:49:40,521 - INFO -  OCR Utility initialized - Tesseract found
+2025-11-01 19:49:40,529 - INFO - Invoice Parser initialized
+2025-11-01 19:49:40,532 - INFO - Invoice Classifier initialized successfully
+2025-11-01 19:49:41,335 - INFO -  ML model loaded from: models\classifier.joblib
+2025-11-01 19:49:41,336 - INFO -   Model type: Linear SVM
+2025-11-01 19:49:41,336 - INFO -   Accuracy: 98.33%
+2025-11-01 19:49:41,336 - INFO -   Trained at: 2025-10-30T10:58:46.688141
+2025-11-01 19:49:41,336 - INFO - Invoice Classifier initialized successfully
+2025-11-01 19:49:41,337 - INFO - Rule-based classifier initialized as fallback
+2025-11-01 19:49:41,337 - INFO - ExpenseClassifier initialized (ML Model: True)
+2025-11-01 19:49:41,337 - INFO -  ML Classifier with fallback initialized
